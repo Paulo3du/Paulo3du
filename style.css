@@ -1,0 +1,53 @@
+header {
+    background-color: darkred;
+}
+
+nav ul {
+    box-sizing: border-box;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav ul li a:hover {
+    cursor: pointer;
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+#politica{
+    padding: 2.5%;
+}
+
+#esportes{
+    padding: 2.5%;
+}
+
+#saude{
+    padding: 2.5%;
+}
+
+#curiosidades{
+    padding: 2.5%;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+footer{
+    background-color: darkred;
+    color: white;
+    text-align: center;
+}
